@@ -1,0 +1,131 @@
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(../../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
+.divExo {
+  background-color: #b6b6b6; }
+
+.divRectangle {
+  background-color: blue;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.divCarreL {
+  background-color: red;
+  width: 50px;
+  height: 50px; }
+
+.divCarreR {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  justify-content: center; }
+
+.exo4Btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .exo4Btn #changePlace {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border: 0px;
+    border-radius: 5px; }
+  .exo4Btn .btnCompteur {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border: 0px;
+    border-radius: 5px; }
+
+#boxExoCinq .btnExo5 {
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: green;
+  color: white; }
+#boxExoCinq img {
+  width: 10%; }
+
+#calculatrice {
+  width: 200px;
+  background-color: black; }
+  #calculatrice .repNv2 {
+    color: white; }
+  #calculatrice .operateur {
+    color: white;
+    background-color: blue; }
+  #calculatrice .btnClear {
+    color: white;
+    background-color: red; }
+  #calculatrice .btnEgal {
+    color: white;
+    background-color: green; }
+
+.divCalcul {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between; }
+  .divCalcul button {
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 10px; }
+
+.inputExo7 {
+  width: 100%;
+  border-radius: 5px; }
+
+.btnToutes {
+  background-color: #b6b6b6;
+  color: blue;
+  border: blue; }
+
+.btnCompletes {
+  background-color: #b6b6b6;
+  color: blue;
+  border: blue; }
+
+.btnAFaire {
+  background-color: #b6b6b6;
+  color: blue;
+  border: blue; }
+
+.toutes {
+  display: flex;
+  align-items: center; }
+  .toutes input {
+    flex: 1; }
+  .toutes p {
+    flex: 8; }
+  .toutes span {
+    flex: 1; }
+
+.completes {
+  align-items: center; }
+  .completes input {
+    flex: 1; }
+  .completes p {
+    flex: 8; }
+  .completes span {
+    flex: 1; }
+
+.aFaire {
+  align-items: center; }
+  .aFaire input {
+    flex: 1; }
+  .aFaire p {
+    flex: 8; }
+  .aFaire span {
+    flex: 1; }
+  .aFaire [type=text] {
+    flex: 8; }
+
+.divExo7 div {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
+
+/*# sourceMappingURL=style.css.map */

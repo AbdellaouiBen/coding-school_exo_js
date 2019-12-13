@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="bg-primary text-white text-center">Javascript DOM</h1>
+        <div id="navig" class="row container">
+            <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 1</a>
+            <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 2</a>
+            <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 3</a>
+            <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 4</a>
+            <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 5</a>
+            <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 6</a>
+            <a href="#" class="col-3 py-2 text-primary bg-white">Exercice 7</a>
+        </div>
+
+
+        <!-- exo 1 -->
+        <div id="boxExoUn" class="divExo  my-5 p-5">
+            <h2 id="titreChange">le titre pas encore modifié</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, quos.</p>
+            <ul>
+                <li>innerText</li>
+                <li>innerHTML</li>
+                <li>querySelector()</li>
+                <li>querySelectorAll()</li>
+                <li>style</li>
+                <li>clas</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, pariatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, pariatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, pariatur.</p>
+            <button>changer le titre</button>
+        </div>
+
+ 
+        <!-- exo 2 -->
+        <div id="boxExoDeux " class="divExo   my-5 p-5"> 
+            <p>mettre un ecouteur d'evenement sur les boutons nav et changer le panel en consequence</p>
+        </div>
+
+
+        <!-- exo 3 -->
+        <div id="boxExoTrois" class="divExo  my-5 p-5">
+            <h2>Welcome <span>inconnu</span> </h2>
+            <p>écriver dans l'input ci-dessous le nom de la personne que vous voulez accueillir <br>
+                lorsque vous cliquez sur le boutton "go" le nom que vous avez ajouté dans l'input sera alors mis dans le
+                span du h2 et l'input sera alors vidé de tout contenu. Attention,interdiction de toucher a l'HTML!</p>
+            <input type="text"><button>go</button>
+        </div>
+
+
+        <!-- exo 4 -->
+        <div id="boxExoQuatre" class="divExo   my-5 p-5">
+            <h2>Déplacer les éléments</h2>
+            <div class="container d-flex justify-content-around">
+                <div class="divRectangle">
+                    <div class="divCarreL d-block"></div>
+
+                </div>
+                <div class="divRectangle">
+                    <div class="divCarreR d-none"></div>
+                </div>
+
+            </div>
+            <div class="exo4Btn">
+                <button id="changePlace">change de place</button>
+                <button class="btnCompteur">nombre de click <span>0</span></button>
+            </div>
+
+        </div>
+
+
+        <!-- exo 5 -->
+        <div id="boxExoCinq" class="divExo  my-5 p-5">
+            <h2>Générer les éléments du DOM</h2>
+            <p>Cliquez sur le boutton ci-dessous pour générer des oeufs.</p>
+            <button class="btnExo5">Ajouter un oeuf</button>
+            <div class="divAOeufs"></div>
+
+        </div>
+
+
+        <!-- exo 6 -->
+        <div id="boxExoSix" class="divExo   my-5 p-5">
+            <h2>Création calculatrice</h2>
+
+
+            <h3>Niveau1</h3>
+            <input class="input1Nv1" type="text">
+            <span>+</span>
+            <input class="input2Nv1" type="text">
+            <button class="btnNv1">=</button>
+            <span class="repNv1">?</span>
+
+            <h3>Niveau2</h3>
+            <div id="calculatrice">
+                <div class="text-right pr-2">
+                    <span class="repNv2">?</span>
+                </div>
+                <div class="pl-1">
+
+                    <input class="inputNv2 " type="text">
+                </div>
+
+                <hr>
+                <div class="">
+                    <div class="divCalcul">
+                        <button class="number">1</button>
+                        <button class="number">2</button>
+                        <button class="number">3</button>
+                        <button class="operateur btnPlus">+</button>
+                    </div>
+
+                    <hr>
+                    <div class="divCalcul">
+                        <button class="number">4</button>
+                        <button class="number">5</button>
+                        <button class="number">6</button>
+                        <button class="operateur btnMoins">-</button>
+                    </div>
+
+                    <hr>
+                    <div class="divCalcul">
+                        <button class="number">7</button>
+                        <button class="number">8</button>
+                        <button class="number">9</button>
+                        <button class="operateur btnMulti">*</button>
+                    </div>
+
+                    <hr>
+                    <div class="divCalcul pb-1">
+                        <button class="btnClear">C</button>
+                        <button class="number">0</button>
+                        <button class="btnEgal">=</button>
+                        <button class="operateur btnDivise">/</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- exo 7 -->
+        <div id="boxExoSix" class="divExo my-5 p-5">
+            <h2>Todo List</h2>    
+            <hr>
+
+            <input class="inputExo7" type="text" placeholder="Que dois-je faire?">
+
+            <div class="text-center">
+                <button class="btnExo7 btnToutes">Toutes</button>
+                <button class="btnExo7 btnCompletes">Completés</button>
+                <button class="btnExo7 btnAFaire">A faire</button>
+            </div>
+
+            
+                <hr> 
+
+            <div class="divExo7">
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <script type="module" src="/public/js/main.js"></script>
+</body> 
+
+</html>
